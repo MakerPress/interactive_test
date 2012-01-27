@@ -1,0 +1,43 @@
+= Interactive Book
+
+This is a sample interactive book.  The flashcards are a simple processing.js script developed by Andrew Odewahn.  The other two apps were things I found on http://openprocessing.org/[Open Processing], a great site for creative programming.  The goal of this is to show how simple (or hard!) it can be to pull stuff in.
+
+== State Capitals
+
+Here are some state capital flashcards.  How many do you know?  Use the left and right arrow keys to move between the questions, and then click the checkbox to see the answer.  It will be interesting to see how this behaves on an iPad!
+
+
+++++
+<?dbhtml-insertfile player="interactive/flashcards/js_assets/cards.pde" data="state_capitals.xml"?>
+++++
+
+
+== World Capitals
+
+Here are some world capitals.  You know the drill by now.
+
+
+++++
+<?dbhtml-insertfile player="interactive/flashcards/js_assets/cards.pde" data="world_capitals.xml"?>
+++++
+
+
+== A Physics Demo
+
+Here's a physics demo.  Click on the black line at the bottom of the applet to change the wave speed.  You can imagine a series of these in a physics book or a math book, for example.  This one was designed by http://openprocessing.org/visuals/?visualID=5671[Jared BlueThen].
+
+
+++++
+<?dbhtml-insertfile player="interactive/wavy/js_assets/cards.pde" ?>
+++++
+
+Here's a little text after the demo, just to show it's possible.
+
+
+== Something Completely Different
+
+I just liked this.  It's kind of creepy, but cool.  I don't really have a practical purpose for it, other than to illustrate the diversity of Processing apps out there.  This one was designed by http://www.openprocessing.org/visuals/?visualID=12684[Loren Schmidt].
+
+++++
+<?dbhtml-insertfile player="interactive/wavy/js_assets/cards.pde" ?>
+++++
